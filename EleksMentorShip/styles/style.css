@@ -1,0 +1,454 @@
+.contact-info {
+	background-color: rgb(37, 37, 37);
+	color: white;
+	height: 30px;
+}
+
+.contact-text {
+	display: inline;
+	float: left;
+	padding-left: 10px;
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 255, 250, 250 );
+    line-height: 2.3;
+    height: 30px;
+}
+
+.contact-text:first-child {
+	padding-left: 0px;
+}
+
+.contact-text:last-child {
+	float: right;
+}
+
+.logo {
+	padding-top: 40px;
+	float: left;
+}
+
+.login-row {
+	margin-top: 25px;
+	margin-right: 0px!important;
+	margin-left: 0px!important;
+	/*padding-right: 0px!important;*/
+}
+
+.login-btn {
+    font-size: 12.691px;
+    font-family: "Roboto";
+    color: rgb( 63, 61, 61 );
+    line-height: 1.103;
+    background-color: white;
+    border: 1px solid rgb(229, 228, 226);
+    padding: 8px 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    float: left;
+}
+
+.register-btn {
+    font-size: 12.691px;
+    font-family: "Roboto";
+    color: rgb( 63, 61, 61 );
+    line-height: 1.103;
+    background-color: white;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.balance {
+	display: inline;
+	float: right;
+}
+
+.checkout-btn {
+	margin-left: 15px;
+	font-size: 12.691px;
+    font-family: "Roboto";
+    color: white;
+    line-height: 1.103;
+    background-color: black;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.search-input {
+	height: 40px;
+	margin-top: 15px;
+	border: 1px solid rgb(229, 228, 226);
+	width: 100%;
+	padding-left: 20px;
+}
+
+.nav-margin {
+	margin-top: 30px;
+	background-color:  rgb(245, 245, 245);
+}
+
+/*.nav-margin > ul {
+	margin-left: 15px;
+	margin-right: 15px;
+}*/
+
+.nav-margin > .nav > .nav-item > .nav-link {
+	color: black;
+}
+
+.nav-margin > .nav > .nav-item > {
+	color: black;
+}
+
+.nav-margin > .nav > .nav-item {
+	padding: 6px 15px;
+}
+
+.nav-margin > .nav > .nav-item:hover {
+	background-color: rgb(228, 229, 228);
+}
+.img-block-1 {
+	height: 320px;	
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/new_arrival.png') center center no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.img-block-2 {
+	height: 320px;
+	width: 100%;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/tuxedo.png') center center no-repeat;
+    background-size: cover;
+}
+
+.img-block-3 {
+	margin-top: 20px;
+	height: 300px;
+	width: 100%;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/sweater.png') center center no-repeat;
+    background-size: cover;
+}
+
+.img-content-head-1 {
+	left: 35%; 
+	position: absolute; 
+	top: 55%; 
+	font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 249, 249, 249 );
+    font-weight: bold;
+    line-height: 0.636;
+}
+
+.img-content-head-2 {
+	left: 41%; 
+	position: absolute; 
+	top: 55%; 
+	font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 249, 249, 249 );
+    font-weight: bold;
+    line-height: 0.636;
+}
+
+.img-content-head-3 {
+	left:50%; 
+	margin-left:-4%;
+	position: absolute; 
+	top: 55%; 
+	font-size: 22px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 249, 249, 249 );
+    font-weight: bold;
+    line-height: 0.636;
+}
+
+.img-content-text {
+	left: 29%; 
+	position: absolute; 
+	top: 65%; 
+	font-size: 12px;
+    font-family: "Roboto";
+    color: rgb( 237, 237, 237 );
+    line-height: 1.167;
+}
+
+.img-content-text-3 {
+	left: 50%;
+    margin-left: -13%; 
+	position: absolute; 
+	top: 65%; 
+	font-size: 12px;
+    font-family: "Roboto";
+    color: rgb( 237, 237, 237 );
+    line-height: 1.167;
+}
+
+.img-btn {
+	left: 39%; 
+	position: absolute; 
+	top: 75%; 
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 249, 249, 249 );
+    line-height: 1;
+    background: none;
+    padding: 8px 20px;
+    border: 1px solid rgb( 249, 249, 249 );
+    cursor: pointer;
+}
+
+.img-btn-3 {
+	left: 50%;
+	margin-left: -5%; 
+	position: absolute; 
+	top: 75%; 
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 249, 249, 249 );
+    line-height: 1;
+    background: none;
+    padding: 8px 20px;
+    border: 1px solid rgb( 249, 249, 249 );
+    cursor: pointer;
+}
+
+.img-block-4 {
+	margin-top: 20px;
+	height: 300px;
+	width: 100%;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/shoes.png') center center no-repeat;
+    background-size: cover;
+}
+
+.img-content-head-4 {
+	left: 10%;
+    position: absolute;
+    top: 83%;
+	font-size: 18px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 249, 249, 249 );
+    font-weight: bold;
+    line-height: 0.636;
+}
+.img-content-text-4 {
+	left: 10%;
+    position: absolute;
+    top: 80%;
+	font-size: 12px;
+    font-family: "Roboto";
+    color: rgb( 237, 237, 237 );
+    line-height: 1.167;
+}
+
+.img-btn-4 {
+	left: 77%;
+    position: absolute;
+    top: 82%;
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 249, 249, 249 );
+    line-height: 1;
+    background: none;
+    /*padding: 8px 20px;*/
+    cursor: pointer;
+}
+
+.img-block-5 {
+	margin-top: 20px;
+	height: 300px;
+	width: 100%;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/glasses.png') center center no-repeat;
+    background-size: cover;
+}
+
+.img-block-6 {
+	margin-top: 20px;
+	height: 300px;
+	width: 100%;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/t_shirt.png') center center no-repeat;
+    background-size: cover;
+}
+
+.img-content-head-6 {
+	left: 25%;
+    position: absolute;
+    top: 65%;
+	font-size: 18px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 249, 249, 249 );
+    font-weight: bold;
+    line-height: 0.636;
+}
+
+.img-block-7 {
+	margin-top: 20px;
+	height: 300px;
+	width: 100%;
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/watches.png') center center no-repeat;
+    background-size: cover;
+}
+
+.img-btn:hover,.img-btn-3:hover, .img-btn-6:hover {
+	background-color: black;
+}
+
+.img-btn-6 {
+	left: 35%;
+    position: absolute;
+    top: 75%;
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 249, 249, 249 );
+    line-height: 1;
+    background: none;
+    border: 1px solid rgb( 249, 249, 249 );
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+
+
+
+.offers-title {
+  /* чтобы линии не выходили за ширину блока заголовка */
+  overflow: hidden;
+  margin-top: 50px;
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb( 63, 61, 61 );
+    line-height: 0.7;
+}
+
+.offers-title > span {
+	border: 1px solid rgb(229, 228, 226);
+	padding: 8px 20px;
+	color: rgb(229, 228, 226);
+}
+.offers-title:before,
+.offers-title:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+
+  /* не позволяем ширине превысить 100% (будет добавлен бордюр) */
+  box-sizing: border-box;
+
+  /* установка ширины в 100% делает линию равной ширине тега заголовка
+  ** благодаря этому линия заполнит все свободное пространство
+  ** слева и справа от текста
+  */
+  width: 100%;
+  height: 1px;
+  background: rgb(229, 228, 226);
+
+  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+  border: solid rgb(229, 228, 226);
+  border-width: 0 10px;
+}
+.offers-title:before {
+  margin-left: -100%;
+}
+.offers-title:after {
+  margin-right: -100%;
+}
+
+.view {
+	margin-top: 50px;
+	position: relative;
+}
+
+.view1 {
+  padding-left: 0px!important;
+}
+.view:last-child {
+  padding-right: 0px!important;
+}
+
+.view > img {
+	cursor: pointer;
+	width: 100%;
+	height: 210px;
+}
+
+.view > div{
+	cursor: pointer;
+	height: 80px;
+	padding-top: 20px;
+	border: 1px solid rgb(229, 228, 226);
+	color: rgb(145, 144, 144);
+	font-size: 17px;
+    font-family: "PlayfairDisplay";
+    /*color: rgb( 63, 61, 61 );*/
+    line-height: 1.5;
+}
+
+.view > div >span {
+
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(145, 144, 144);
+  line-height: 1.5;
+}
+
+.block{
+    position:absolute;
+    left:40%;
+    top:30%;
+    color: white!important;
+    cursor: pointer!important;
+    font-size: 16px;
+  	font-family: "PlayfairDisplay";
+    /*background:rgba(255,255,255, 0.7);*/
+    padding:5px;
+    display:none;
+    font-size: bold;
+}
+
+.view:hover .block{
+    display:block;
+}
+
+.view:hover .text-center{
+    background-color: rgb(229, 228, 226);
+}
+
+.contact_us {
+	border-bottom: 1px solid rgb(229, 228, 226);
+	border-top: 1px solid rgb(229, 228, 226);
+	margin-top: 90px;
+}
+
+.footer-margin {
+	margin-top: 90px;
+}
+
+/*.social {
+	height: 50px;
+}*/
+
+.social-img {
+	margin-left: 10px;
+}
+/*
+.wrap{color:#fff;position: relative;
+}
+.inner{position: absolute;
+top: 0;left: 0;right: 0;bottom: 0;z-index: -1; 
+height: 320px;
+background-size:cover;
+
+}
+.inner img{width: 100%;
+-webkit-mask-image: -webkit-gradient(linear,left top, left bottom,
+color-stop(0.00, rgba(0,0,0,1)),
+color-stop(0.5, rgba(0,0,0,1)),
+color-stop(1.00, rgba(0,0,0,0)));
+}
+*/
