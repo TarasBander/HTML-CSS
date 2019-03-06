@@ -28,11 +28,23 @@
 	float: left;
 }
 
+.pad-right {
+	padding-right: 15px;
+}
+
 .login-row {
 	margin-top: 25px;
 	margin-right: 0px!important;
 	margin-left: 0px!important;
 	/*padding-right: 0px!important;*/
+}
+
+.no-pad-left {
+	padding-left: 0px!important;
+}
+
+.no-pad-right {
+	padding-right: 0px!important;
 }
 
 .login-btn {
@@ -79,11 +91,11 @@
 }
 
 .search-input {
-	height: 40px;
-	margin-top: 15px;
-	border: 1px solid rgb(229, 228, 226);
+	height: 35px;
+	/*margin-top: 15px;*/
+	/*border: 1px solid rgb(229, 228, 226);*/
 	width: 100%;
-	padding-left: 20px;
+	/*padding-left: 20px;*/
 }
 
 .nav-margin {
@@ -95,6 +107,31 @@
 	margin-left: 15px;
 	margin-right: 15px;
 }*/
+
+/*input.search-input{
+    background: url(../images/search.png) no-repeat center left;
+    padding-left:30px;
+}*/
+.search {
+    border: 1px solid rgb(229, 228, 226);
+    margin-top: 15px;
+    height: 40px;
+   }
+input[type="search"] {
+    border: none; /* Убираем рамку */
+    outline: none; /* Убираем свечение в Chrome и Safari */
+    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    width: 95%; 
+    vertical-align: middle; /* Выравнивание по середине */
+   }
+
+input[type="submit"] {
+    width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../images/search.png) no-repeat 50% 50%; /* Параметры фона */
+    cursor: pointer;
+   }
 
 .nav-margin > .nav > .nav-item > .nav-link {
 	color: black;
@@ -361,6 +398,33 @@
     font-family: "PlayfairDisplay";
     /*color: rgb( 63, 61, 61 );*/
     line-height: 1.5;
+}
+
+.view > figure{
+	cursor: pointer;
+	/*height: 80px;*/
+	/*padding-top: 20px;*/
+	border: 1px solid rgb(229, 228, 226);
+	color: rgb(145, 144, 144);
+	font-size: 17px;
+    font-family: "PlayfairDisplay";
+    /*color: rgb( 63, 61, 61 );*/
+    line-height: 1.5;
+}
+
+.view > figure > img {
+	height: 210px;
+}
+
+.view > figure > figcaption {
+	height: 80px;
+	color: rgb(145, 144, 144);
+	font-size: 17px;
+    font-family: "PlayfairDisplay";
+    /*color: rgb( 63, 61, 61 );*/
+    padding-top: 20px;
+    line-height: 1.5;
+
 }
 
 .view > div >span {

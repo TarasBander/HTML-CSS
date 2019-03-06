@@ -13,7 +13,7 @@
 					<div class="contact-text">Help</div>
 					<div class="contact-text">Contact</div>
 					<div class="contact-text">Delivery Information</div>
-					<div class="contact-text">Call us : 032 2352 782</div>
+					<div class="contact-text"><!-- <img src="images/phone.png" alt="phone"> -->Call us : 032 2352 782</div>
 				</div>
 			</div>
 		</div>
@@ -26,16 +26,17 @@
 				</div>
 				<div class="col-6 login-row">
 					<div class="row">
-						<div class="col-12">
+						<div class="col-12 no-pad-left">
 							<button class="login-btn">LOGIN</button>
 							<button class="register-btn">REGISTER</button>
 							<button class="checkout-btn">CHECKOUT</button>
-							<div class="balance">My Cart(0):$0</div>
+							<div class="balance"><img src="images/cart.png" alt="cart"> My Cart(0):$0</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-12">
-							<input class="search-input" type="text" placeholder="Search">
+					<div class="row pad-right">
+						<div class="col-12 search">
+							<input type="search" class="search-input" type="text" placeholder="Search">
+							<input type="submit" value="">
 						</div>
 					</div>
 				</div>
@@ -43,7 +44,7 @@
 		</header>
 		<section>
 			<div class="nav-margin">
-				<ul class="nav">
+				<nav class="nav">
 				  <li class="nav-item">
 				    <a class="nav-link active" href="#">HOME</a>
 				  </li>
@@ -68,7 +69,7 @@
 				  <li class="nav-item">
 				    <a class="nav-link" href="#">WATCHES</a>
 				  </li>
-				</ul>
+				</nav>
 				<!-- <nav class="nav">
 				  <a class="nav-link active" href="#">HOME</a>
 				  <a class="nav-link" href="#">NEW ARRIVALS</a>
@@ -94,7 +95,7 @@
 				<div>TUXEDO</div>
 			</div> -->
 
-				<div class="col-6">
+				<div class="col-6 no-pad-left">
 					<div class="img-block-1">
 						<div class="img-content-head-1">
 							NEW ARRIVALS
@@ -105,7 +106,7 @@
 						<button class="img-btn">TAKE A LOOK</button>
 				    </div>
 				</div>
-				<div  class="col-6">
+				<div  class="col-6 no-pad-right">
 				    <div class="img-block-2">
 						<div class="img-content-head-2">
 							TUXEDO
@@ -116,7 +117,7 @@
 						<button class="img-btn">SHOP NOW</button>
 					</div>	
 				</div>
-				<div class="col-8">
+				<div class="col-8 no-pad-left">
 				    <div class="img-block-3">
 						<div class="img-content-head-3">
 							SWEATER
@@ -127,7 +128,7 @@
 						<button class="img-btn-3">SHOP NOW</button>
 					</div>	
 				</div>
-				<div  class="col-4">
+				<div  class="col-4 no-pad-right">
 					<div class="img-block-4">
 						<div class="img-content-head-4">
 							TREKKING SHOES
@@ -135,7 +136,7 @@
 						<a class="img-btn-4"><img src="images/right-arrow.png" alt="right-arrow"></a>
 					</div>	
 				</div>
-				<div  class="col-4">
+				<div  class="col-4 no-pad-left">
 					<div class="img-block-5">
 						<div class="img-content-head-4">
 							CASUAL GLASSES
@@ -151,7 +152,7 @@
 						<button class="img-btn-6">SHOP NOW</button>
 					</div>
 				</div>
-				<div  class="col-4">
+				<div  class="col-4 no-pad-right">
 					<div class="img-block-7">
 						<div class="img-content-head-4">
 							ELEGANT WATCHES
@@ -159,38 +160,43 @@
 						<a class="img-btn-4"><img src="images/right-arrow.png"  alt="right-arrow"></a>
 					</div>
 				</div>
-				<div class="col-12 text-center offers-title"><span>Special Offres</span></div>
+				<div class="col-12 text-center offers-title no-pad-left no-pad-right"><span>Special Offres</span></div>
 				<div class="col-3 view view1">
-					<img src="images/view1.png" alt="view1">
-					<div class="text-center">Lorem ipsum dolor<br><span>
-						ONLY $40.00
-					</span></div>
-					<a class="block">VIEW</a>
+					<figure class="figure">
+					  <img src="images/view1.png" class="img-fluid" alt="view1">
+					  <figcaption class="figure-caption text-center">Lorem ipsum dolor<br><span>
+							ONLY $40.00
+						</span></figcaption>
+						<a class="block">VIEW</a>
+					</figure>
 				</div>
 				<div class="col-3 view">
-					<img src="images/view2.png" alt="view2">
-					<div class="text-center">Lorem ipsum dolor<br><span>
-						ONLY $40.00
-					</span></div>
-					<a class="block">VIEW</a>
+					<figure class="figure">
+					  <img src="images/view2.png" class="img-fluid" alt="view2">
+					  <figcaption class="figure-caption text-center">Lorem ipsum dolor<br><span>
+							ONLY $40.00
+						</span></figcaption>
+						<a class="block">VIEW</a>
+					</figure>
 				</div>
 				<div class="col-3 view">
-					<img src="images/view3.png" alt="view3">
-					<div class="text-center">Lorem ipsum dolor<br><span>
-						ONLY $40.00
-					</span></div>
-					<a class="block">VIEW</a>
+					<figure class="figure">
+					  <img src="images/view3.png" class="img-fluid" alt="view3">
+					  <figcaption class="figure-caption text-center">Lorem ipsum dolor<br><span>
+							ONLY $40.00
+						</span></figcaption>
+						<a class="block">VIEW</a>
+					</figure>
 				</div>
 				<div class="col-3 view">
-					<img src="images/view4.png" alt="view4">
-					<div class="text-center">Lorem ipsum dolor<br><span>
-						ONLY $40.00
-					</span></div>
-					<a class="block">VIEW</a>
+					<figure class="figure">
+					  <img src="images/view4.png" class="img-fluid" alt="view4">
+					  <figcaption class="figure-caption text-center">Lorem ipsum dolor<br><span>
+							ONLY $40.00
+						</span></figcaption>
+						<a class="block">VIEW</a>
+					</figure>
 				</div>
-				<!-- <div class="row"> -->
-						
-				<!-- </div> -->
 			</div>
 		</section>
 	</div>
@@ -201,11 +207,11 @@
 					<div class="row footer-row">
 						<div class="col-6 follow">
 							FOLLOW US ON
-							<img class="social-img" src="images/facebook.png" alt="facebook">
-							<img class="social-img" src="images/twitter.png" alt="twitter">
-							<img class="social-img" src="images/google.png" alt="google">
-							<img class="social-img" src="images/instagram.png" alt="instagram">
-							<img class="social-img" src="images/pinterest.png" alt="pinterest">
+							<a href="#"><img class="social-img" src="images/facebook.png" alt="facebook"></a>
+							<a href="#"><img class="social-img" src="images/twitter.png" alt="twitter"></a>
+							<a href="#"><img class="social-img" src="images/google.png" alt="google"></a>
+							<a href="#"><img class="social-img" src="images/instagram.png" alt="instagram"></a>
+							<a href="#"><img class="social-img" src="images/pinterest.png" alt="pinterest"></a>
 						</div>
 						<div class="col-6">
 							<input class="email-input" type="text" placeholder="Enter your email to oin our newsletter">
