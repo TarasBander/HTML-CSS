@@ -36,17 +36,7 @@
 	margin-top: 25px;
 	margin-right: 0px!important;
 	margin-left: 0px!important;
-	/*padding-right: 0px!important;*/
 }
-
-.no-pad-left {
-	padding-left: 0px!important;
-}
-
-.no-pad-right {
-	padding-right: 0px!important;
-}
-
 .login-btn {
     font-size: 12.691px;
     font-family: "Roboto";
@@ -92,25 +82,13 @@
 
 .search-input {
 	height: 35px;
-	/*margin-top: 15px;*/
-	/*border: 1px solid rgb(229, 228, 226);*/
 	width: 100%;
-	/*padding-left: 20px;*/
 }
 
 .nav-margin {
 	margin-top: 30px;
 	background-color:  rgb(245, 245, 245);
-}
-
-/*.nav-margin > ul {
-	margin-left: 15px;
-	margin-right: 15px;
-}*/
-
-/*input.search-input{
-    background: url(../images/search.png) no-repeat center left;
-    padding-left:30px;
+}ding-left:30px;
 }*/
 .search {
     border: 1px solid rgb(229, 228, 226);
@@ -118,18 +96,18 @@
     height: 40px;
    }
 input[type="search"] {
-    border: none; /* Убираем рамку */
-    outline: none; /* Убираем свечение в Chrome и Safari */
-    -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
     width: 95%; 
-    vertical-align: middle; /* Выравнивание по середине */
+    vertical-align: middle;
    }
 
 input[type="submit"] {
-    width: 20px; /* Ширина кнопки */
-    height: 20px; /* Высота кнопки */
-    border: none; /* Убираем рамку */
-    background: url(../images/search.png) no-repeat 50% 50%; /* Параметры фона */
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: url(../images/search.png) no-repeat 50% 50%;
     cursor: pointer;
    }
 
@@ -171,10 +149,11 @@ input[type="submit"] {
 }
 
 .img-content-head-1 {
-	left: 35%; 
-	position: absolute; 
-	top: 55%; 
-	font-size: 22px;
+	left: 50%;
+    margin-left: -80px;
+    position: absolute;
+    bottom: 130px;
+    font-size: 22px;
     font-family: "PlayfairDisplay";
     color: rgb( 249, 249, 249 );
     font-weight: bold;
@@ -182,10 +161,11 @@ input[type="submit"] {
 }
 
 .img-content-head-2 {
-	left: 41%; 
-	position: absolute; 
-	top: 55%; 
-	font-size: 22px;
+	left: 50%;
+    margin-left: -45px;
+    position: absolute;
+    bottom: 130px;
+    font-size: 22px;
     font-family: "PlayfairDisplay";
     color: rgb( 249, 249, 249 );
     font-weight: bold;
@@ -194,9 +174,9 @@ input[type="submit"] {
 
 .img-content-head-3 {
 	left:50%; 
-	margin-left:-4%;
+	margin-left:-30px;
 	position: absolute; 
-	top: 55%; 
+	bottom: 130px;
 	font-size: 22px;
     font-family: "PlayfairDisplay";
     color: rgb( 249, 249, 249 );
@@ -205,31 +185,52 @@ input[type="submit"] {
 }
 
 .img-content-text {
-	left: 29%; 
-	position: absolute; 
-	top: 65%; 
-	font-size: 12px;
+    left: 50%;
+    margin-left: -125px;
+    bottom: 100px;
+    position: absolute;
+    font-size: 12px;
     font-family: "Roboto";
     color: rgb( 237, 237, 237 );
     line-height: 1.167;
+}
+
+.marg-top {
+    margin-top: 20px;
 }
 
 .img-content-text-3 {
 	left: 50%;
-    margin-left: -13%; 
-	position: absolute; 
-	top: 65%; 
-	font-size: 12px;
+    margin-left: -14%;
+    position: absolute;
+    bottom: 100px;
+    font-size: 12px;
     font-family: "Roboto";
     color: rgb( 237, 237, 237 );
     line-height: 1.167;
 }
 
-.img-btn {
-	left: 39%; 
-	position: absolute; 
-	top: 75%; 
-	font-size: 14px;
+.img-btn-1 {
+	left: 50%;
+    margin-left: -61px;
+    position: absolute;
+    bottom: 50px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb( 249, 249, 249 );
+    line-height: 1;
+    background: none;
+    padding: 8px 20px;
+    border: 1px solid rgb( 249, 249, 249 );
+    cursor: pointer;
+}
+
+.img-btn-2 {
+    left: 50%;
+    margin-left: -53px;
+    position: absolute;
+    bottom: 50px;
+    font-size: 14px;
     font-family: "Roboto";
     color: rgb( 249, 249, 249 );
     line-height: 1;
@@ -241,10 +242,10 @@ input[type="submit"] {
 
 .img-btn-3 {
 	left: 50%;
-	margin-left: -5%; 
-	position: absolute; 
-	top: 75%; 
-	font-size: 14px;
+    margin-left: -33px;
+    position: absolute;
+    bottom: 50px;
+    font-size: 14px;
     font-family: "Roboto";
     color: rgb( 249, 249, 249 );
     line-height: 1;
@@ -265,7 +266,7 @@ input[type="submit"] {
 .img-content-head-4 {
 	left: 10%;
     position: absolute;
-    top: 83%;
+    bottom: 40px;
 	font-size: 18px;
     font-family: "PlayfairDisplay";
     color: rgb( 249, 249, 249 );
@@ -285,13 +286,12 @@ input[type="submit"] {
 .img-btn-4 {
 	left: 77%;
     position: absolute;
-    top: 82%;
+    bottom: 37px;
 	font-size: 14px;
     font-family: "Roboto";
     color: rgb( 249, 249, 249 );
     line-height: 1;
     background: none;
-    /*padding: 8px 20px;*/
     cursor: pointer;
 }
 
@@ -312,10 +312,11 @@ input[type="submit"] {
 }
 
 .img-content-head-6 {
-	left: 25%;
+	left: 50%;
+    margin-left: -95px;
     position: absolute;
-    top: 65%;
-	font-size: 18px;
+    bottom: 100px;
+    font-size: 18px;
     font-family: "PlayfairDisplay";
     color: rgb( 249, 249, 249 );
     font-weight: bold;
@@ -330,15 +331,16 @@ input[type="submit"] {
     background-size: cover;
 }
 
-.img-btn:hover,.img-btn-3:hover, .img-btn-6:hover {
+.img-btn-1:hover, .img-btn-2:hover, .img-btn-3:hover, .img-btn-6:hover {
 	background-color: black;
 }
 
 .img-btn-6 {
-	left: 35%;
+	left: 50%;
+    margin-left: -55px;
     position: absolute;
-    top: 75%;
-	font-size: 14px;
+    bottom: 40px;
+    font-size: 14px;
     font-family: "Roboto";
     color: rgb( 249, 249, 249 );
     line-height: 1;
@@ -373,13 +375,6 @@ input[type="submit"] {
 .view {
 	margin-top: 50px;
 	position: relative;
-}
-
-.view1 {
-  padding-left: 0px!important;
-}
-.view:last-child {
-  padding-right: 0px!important;
 }
 
 .view > img {
@@ -443,7 +438,6 @@ input[type="submit"] {
     cursor: pointer!important;
     font-size: 16px;
   	font-family: "PlayfairDisplay";
-    /*background:rgba(255,255,255, 0.7);*/
     padding:5px;
     display:none;
     font-size: bold;
@@ -456,10 +450,6 @@ input[type="submit"] {
 .view:hover .text-center{
     background-color: rgb(229, 228, 226);
 }
-
-/*.contact_us {
-	margin-top: 90px;
-}*/
 
 .footer-border {
 	margin-top: 90px;
@@ -494,7 +484,6 @@ input[type="submit"] {
 	font-size: 12.691px;
     font-family: "Roboto";
     color: white;
-    /*line-height: 1.103;*/
     background-color: black;
     border: none;
     padding: 8px 20px;
