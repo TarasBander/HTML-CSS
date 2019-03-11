@@ -29,7 +29,7 @@
 }
 
 .pad-right {
-	padding-right: 15px;
+	/*padding-right: 15px;*/
 }
 
 .login-row {
@@ -88,28 +88,50 @@
 .nav-margin {
 	margin-top: 30px;
 	background-color:  rgb(245, 245, 245);
-}ding-left:30px;
-}*/
-.search {
+}
+
+.login-row > .search {
     border: 1px solid rgb(229, 228, 226);
     margin-top: 15px;
     height: 40px;
-   }
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
 input[type="search"] {
     border: none;
-    outline: none;
-    -webkit-appearance: none;
-    width: 95%; 
-    vertical-align: middle;
-   }
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.35em 0.75em;
+    border: none;
+    font-size: 1.1em;
+    text-decoration: none;
+    line-height: normal;
+    max-height: 3em;
+    flex: 2 0 250px;
+    outline:none;
+}
 
 input[type="submit"] {
-    width: 20px;
-    height: 20px;
-    border: none;
     background: url(../images/search.png) no-repeat 50% 50%;
     cursor: pointer;
-   }
+    margin-right: 5px;  
+    max-height: 3em;
+    font-size: 1.1em;
+    letter-spacing: .2em;
+    border: none;
+    padding: 0.35em 0.75em;
+    cursor: pointer;
+    outline:none;
+}
 
 .nav-margin > .nav > .nav-item > .nav-link {
 	color: black;
@@ -126,11 +148,17 @@ input[type="submit"] {
 .nav-margin > .nav > .nav-item:hover {
 	background-color: rgb(228, 229, 228);
 }
+
 .img-block-1 {
 	height: 320px;	
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/new_arrival.png') center center no-repeat;
     background-size: cover;
     width: 100%;
+    transition: transform .2s;
+}
+
+.img-block-1:hover {
+    transform: scale(1.1);
 }
 
 .img-block-2 {
@@ -138,6 +166,11 @@ input[type="submit"] {
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/tuxedo.png') center center no-repeat;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.img-block-2:hover {
+    transform: scale(1.1);
 }
 
 .img-block-3 {
@@ -146,9 +179,15 @@ input[type="submit"] {
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/sweater.png') center center no-repeat;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.img-block-3:hover {
+    transform: scale(1.05);
 }
 
 .img-content-head-1 {
+    transition: transform .2s;
 	left: 50%;
     margin-left: -80px;
     position: absolute;
@@ -161,6 +200,7 @@ input[type="submit"] {
 }
 
 .img-content-head-2 {
+    transition: transform .2s;
 	left: 50%;
     margin-left: -45px;
     position: absolute;
@@ -173,8 +213,9 @@ input[type="submit"] {
 }
 
 .img-content-head-3 {
+    transition: transform .2s;
 	left:50%; 
-	margin-left:-30px;
+	margin-left:-50px;
 	position: absolute; 
 	bottom: 130px;
 	font-size: 22px;
@@ -185,6 +226,7 @@ input[type="submit"] {
 }
 
 .img-content-text {
+    transition: transform .2s;
     left: 50%;
     margin-left: -125px;
     bottom: 100px;
@@ -200,8 +242,9 @@ input[type="submit"] {
 }
 
 .img-content-text-3 {
+    transition: transform .2s;
 	left: 50%;
-    margin-left: -14%;
+    margin-left: -16%;
     position: absolute;
     bottom: 100px;
     font-size: 12px;
@@ -211,6 +254,7 @@ input[type="submit"] {
 }
 
 .img-btn-1 {
+    transition: transform .2s;
 	left: 50%;
     margin-left: -61px;
     position: absolute;
@@ -226,6 +270,7 @@ input[type="submit"] {
 }
 
 .img-btn-2 {
+    transition: transform .2s;
     left: 50%;
     margin-left: -53px;
     position: absolute;
@@ -241,8 +286,9 @@ input[type="submit"] {
 }
 
 .img-btn-3 {
+    transition: transform .2s;
 	left: 50%;
-    margin-left: -33px;
+    margin-left: -53px;
     position: absolute;
     bottom: 50px;
     font-size: 14px;
@@ -261,9 +307,15 @@ input[type="submit"] {
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/shoes.png') center center no-repeat;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.img-block-4:hover {
+    transform: scale(1.1);
 }
 
 .img-content-head-4 {
+    transition: transform .2s;
 	left: 10%;
     position: absolute;
     bottom: 40px;
@@ -274,6 +326,7 @@ input[type="submit"] {
     line-height: 0.636;
 }
 .img-content-text-4 {
+    transition: transform .2s;
 	left: 10%;
     position: absolute;
     top: 80%;
@@ -284,6 +337,7 @@ input[type="submit"] {
 }
 
 .img-btn-4 {
+    transition: transform .2s;
 	left: 77%;
     position: absolute;
     bottom: 37px;
@@ -301,6 +355,11 @@ input[type="submit"] {
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/glasses.png') center center no-repeat;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.img-block-5:hover {
+    transform: scale(1.1);
 }
 
 .img-block-6 {
@@ -309,9 +368,15 @@ input[type="submit"] {
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/t_shirt.png') center center no-repeat;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.img-block-6:hover {
+    transform: scale(1.1);
 }
 
 .img-content-head-6 {
+    transition: transform .2s;
 	left: 50%;
     margin-left: -95px;
     position: absolute;
@@ -329,6 +394,11 @@ input[type="submit"] {
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/watches.png') center center no-repeat;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.img-block-7:hover {
+    transform: scale(1.1);
 }
 
 .img-btn-1:hover, .img-btn-2:hover, .img-btn-3:hover, .img-btn-6:hover {
@@ -336,6 +406,7 @@ input[type="submit"] {
 }
 
 .img-btn-6 {
+    transition: transform .2s;
 	left: 50%;
     margin-left: -55px;
     position: absolute;
@@ -471,9 +542,20 @@ input[type="submit"] {
 	height: 40px;
 	padding-left: 20px;
 	margin-top: 1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.35em 0.75em;
+    font-size: 1.1em;
+    text-decoration: none;
+    line-height: normal;
+    max-height: 3em;
+    flex: 2 0 250px;
+    outline:none;
 }
 
 .footer-row {
+    display: none;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	/*margin-bottom: 40px;*/
@@ -494,6 +576,7 @@ input[type="submit"] {
 
 .follow {
 	padding-top: 10px;
+    margin-bottom: 10px;
 }
 
 .footer {
