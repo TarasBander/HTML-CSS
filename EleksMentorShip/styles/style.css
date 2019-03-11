@@ -155,11 +155,11 @@ input[type="submit"] {
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/new_arrival.png') center center no-repeat;
     background-size: cover;
     width: 100%;
-    transition: transform .5s;
+    transition: transform .2s;
 }
 
 .img-block-1:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .img-block-2 {
@@ -175,8 +175,7 @@ input[type="submit"] {
 }
 
 .img-block-3 {
-	margin-top: 20px;
-	height: 300px;
+	height: 320px;
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/sweater.png') center center no-repeat;
     background-size: cover;
@@ -184,13 +183,13 @@ input[type="submit"] {
 }
 
 .img-block-3:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .img-content-head-1 {
     transition: transform .2s;
-	left: 50%;
-    margin-left: -80px;
+	/*left: 50%;
+    margin-left: -80px;*/
     position: absolute;
     bottom: 130px;
     font-size: 22px;
@@ -202,8 +201,8 @@ input[type="submit"] {
 
 .img-content-head-2 {
     transition: transform .2s;
-	left: 50%;
-    margin-left: -45px;
+	/*left: 50%;
+    margin-left: -45px;*/
     position: absolute;
     bottom: 130px;
     font-size: 22px;
@@ -215,8 +214,8 @@ input[type="submit"] {
 
 .img-content-head-3 {
     transition: transform .2s;
-	left:50%; 
-	margin-left:-50px;
+	/*left:50%; 
+	margin-left:-50px;*/
 	position: absolute; 
 	bottom: 130px;
 	font-size: 22px;
@@ -228,8 +227,8 @@ input[type="submit"] {
 
 .img-content-text {
     transition: transform .2s;
-    left: 50%;
-    margin-left: -125px;
+    /*left: 50%;
+    margin-left: -125px;*/
     bottom: 100px;
     position: absolute;
     font-size: 12px;
@@ -244,8 +243,8 @@ input[type="submit"] {
 
 .img-content-text-3 {
     transition: transform .2s;
-	left: 50%;
-    margin-left: -16%;
+	/*left: 50%;
+    margin-left: -117px;*/
     position: absolute;
     bottom: 100px;
     font-size: 12px;
@@ -256,8 +255,8 @@ input[type="submit"] {
 
 .img-btn-1 {
     transition: transform .2s;
-	left: 50%;
-    margin-left: -61px;
+	/*left: 50%;
+    margin-left: -61px;*/
     position: absolute;
     bottom: 50px;
     font-size: 14px;
@@ -272,8 +271,8 @@ input[type="submit"] {
 
 .img-btn-2 {
     transition: transform .2s;
-    left: 50%;
-    margin-left: -53px;
+    /*left: 50%;
+    margin-left: -53px;*/
     position: absolute;
     bottom: 50px;
     font-size: 14px;
@@ -288,8 +287,8 @@ input[type="submit"] {
 
 .img-btn-3 {
     transition: transform .2s;
-	left: 50%;
-    margin-left: -53px;
+	/*left: 50%;
+    margin-left: -53px;*/
     position: absolute;
     bottom: 50px;
     font-size: 14px;
@@ -303,8 +302,7 @@ input[type="submit"] {
 }
 
 .img-block-4 {
-	margin-top: 20px;
-	height: 300px;
+	height: 320px;
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/shoes.png') center center no-repeat;
     background-size: cover;
@@ -317,7 +315,7 @@ input[type="submit"] {
 
 .img-content-head-4 {
     transition: transform .2s;
-	left: 10%;
+	/*left: 10%;*/
     position: absolute;
     bottom: 40px;
 	font-size: 18px;
@@ -328,9 +326,9 @@ input[type="submit"] {
 }
 .img-content-text-4 {
     transition: transform .2s;
-	left: 10%;
+	/*left: 10%;*/
     position: absolute;
-    top: 80%;
+    /*top: 80%;*/
 	font-size: 12px;
     font-family: "Roboto";
     color: rgb( 237, 237, 237 );
@@ -339,7 +337,7 @@ input[type="submit"] {
 
 .img-btn-4 {
     transition: transform .2s;
-	left: 77%;
+	/*left: 77%;*/
     position: absolute;
     bottom: 37px;
 	font-size: 14px;
@@ -351,8 +349,7 @@ input[type="submit"] {
 }
 
 .img-block-5 {
-	margin-top: 20px;
-	height: 300px;
+	height: 320px;
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/glasses.png') center center no-repeat;
     background-size: cover;
@@ -364,8 +361,7 @@ input[type="submit"] {
 }
 
 .img-block-6 {
-	margin-top: 20px;
-	height: 300px;
+	height: 320px;
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/t_shirt.png') center center no-repeat;
     background-size: cover;
@@ -373,13 +369,13 @@ input[type="submit"] {
 }
 
 .img-block-6:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .img-content-head-6 {
     transition: transform .2s;
-	left: 50%;
-    margin-left: -95px;
+	/*left: 50%;
+    margin-left: -95px;*/
     position: absolute;
     bottom: 100px;
     font-size: 18px;
@@ -390,8 +386,7 @@ input[type="submit"] {
 }
 
 .img-block-7 {
-	margin-top: 20px;
-	height: 300px;
+	height: 320px;
 	width: 100%;
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%), url('../images/watches.png') center center no-repeat;
     background-size: cover;
@@ -408,8 +403,8 @@ input[type="submit"] {
 
 .img-btn-6 {
     transition: transform .2s;
-	left: 50%;
-    margin-left: -55px;
+	/*left: 50%;
+    margin-left: -55px;*/
     position: absolute;
     bottom: 40px;
     font-size: 14px;
@@ -490,11 +485,10 @@ input[type="submit"] {
 }
 
 .view > div >span {
-
-  font-size: 15px;
-  font-family: "Roboto";
-  color: rgb(145, 144, 144);
-  line-height: 1.5;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(145, 144, 144);
+    line-height: 1.5;
 }
 
 .block{
@@ -637,4 +631,14 @@ input[type="submit"] {
 
 .content-wrapper {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
