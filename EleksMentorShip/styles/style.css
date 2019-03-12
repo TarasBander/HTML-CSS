@@ -315,9 +315,9 @@ input[type="submit"] {
 
 .img-content-head-4 {
     transition: transform .2s;
-	/*left: 10%;*/
+	/*left: 10%;
     position: absolute;
-    bottom: 40px;
+    bottom: 40px;*/
 	font-size: 18px;
     font-family: "PlayfairDisplay";
     color: rgb( 249, 249, 249 );
@@ -327,7 +327,7 @@ input[type="submit"] {
 .img-content-text-4 {
     transition: transform .2s;
 	/*left: 10%;*/
-    position: absolute;
+    /*position: absolute;*/
     /*top: 80%;*/
 	font-size: 12px;
     font-family: "Roboto";
@@ -337,9 +337,9 @@ input[type="submit"] {
 
 .img-btn-4 {
     transition: transform .2s;
-	/*left: 77%;*/
+	/*left: 77%;
     position: absolute;
-    bottom: 37px;
+    bottom: 37px;*/
 	font-size: 14px;
     font-family: "Roboto";
     color: rgb( 249, 249, 249 );
@@ -640,5 +640,6 @@ input[type="submit"] {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
 }
