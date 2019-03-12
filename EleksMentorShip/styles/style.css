@@ -188,8 +188,6 @@ input[type="submit"] {
 
 .img-content-head-1 {
     transition: transform .2s;
-	/*left: 50%;
-    margin-left: -80px;*/
     position: absolute;
     bottom: 130px;
     font-size: 22px;
@@ -201,8 +199,6 @@ input[type="submit"] {
 
 .img-content-head-2 {
     transition: transform .2s;
-	/*left: 50%;
-    margin-left: -45px;*/
     position: absolute;
     bottom: 130px;
     font-size: 22px;
@@ -214,8 +210,6 @@ input[type="submit"] {
 
 .img-content-head-3 {
     transition: transform .2s;
-	/*left:50%; 
-	margin-left:-50px;*/
 	position: absolute; 
 	bottom: 130px;
 	font-size: 22px;
@@ -227,8 +221,6 @@ input[type="submit"] {
 
 .img-content-text {
     transition: transform .2s;
-    /*left: 50%;
-    margin-left: -125px;*/
     bottom: 100px;
     position: absolute;
     font-size: 12px;
@@ -243,8 +235,6 @@ input[type="submit"] {
 
 .img-content-text-3 {
     transition: transform .2s;
-	/*left: 50%;
-    margin-left: -117px;*/
     position: absolute;
     bottom: 100px;
     font-size: 12px;
@@ -255,8 +245,6 @@ input[type="submit"] {
 
 .img-btn-1 {
     transition: transform .2s;
-	/*left: 50%;
-    margin-left: -61px;*/
     position: absolute;
     bottom: 50px;
     font-size: 14px;
@@ -271,8 +259,6 @@ input[type="submit"] {
 
 .img-btn-2 {
     transition: transform .2s;
-    /*left: 50%;
-    margin-left: -53px;*/
     position: absolute;
     bottom: 50px;
     font-size: 14px;
@@ -287,8 +273,6 @@ input[type="submit"] {
 
 .img-btn-3 {
     transition: transform .2s;
-	/*left: 50%;
-    margin-left: -53px;*/
     position: absolute;
     bottom: 50px;
     font-size: 14px;
@@ -315,9 +299,6 @@ input[type="submit"] {
 
 .img-content-head-4 {
     transition: transform .2s;
-	/*left: 10%;
-    position: absolute;
-    bottom: 40px;*/
 	font-size: 18px;
     font-family: "PlayfairDisplay";
     color: rgb( 249, 249, 249 );
@@ -326,9 +307,6 @@ input[type="submit"] {
 }
 .img-content-text-4 {
     transition: transform .2s;
-	/*left: 10%;*/
-    /*position: absolute;*/
-    /*top: 80%;*/
 	font-size: 12px;
     font-family: "Roboto";
     color: rgb( 237, 237, 237 );
@@ -337,9 +315,6 @@ input[type="submit"] {
 
 .img-btn-4 {
     transition: transform .2s;
-	/*left: 77%;
-    position: absolute;
-    bottom: 37px;*/
 	font-size: 14px;
     font-family: "Roboto";
     color: rgb( 249, 249, 249 );
@@ -374,8 +349,6 @@ input[type="submit"] {
 
 .img-content-head-6 {
     transition: transform .2s;
-	/*left: 50%;
-    margin-left: -95px;*/
     position: absolute;
     bottom: 100px;
     font-size: 18px;
@@ -403,8 +376,6 @@ input[type="submit"] {
 
 .img-btn-6 {
     transition: transform .2s;
-	/*left: 50%;
-    margin-left: -55px;*/
     position: absolute;
     bottom: 40px;
     font-size: 14px;
